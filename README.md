@@ -19,11 +19,25 @@ Follow the steps below to set up the services.
 
 #### ▶️ Start the Flask Service
 
-Navigate to the `service_hello_world` directory and run the Python script to start the Flask web service.
+Navigate to the `web_application_flask` directory and run the Python script to start the Flask web service.
 
 ```
-cd service_hello_world
-python3 script.py
+cd web_application_flask
+docker-compose up -d
+```
+
+#### ▶️ Start the nextcloud Service
+
+```
+cd nextcloud
+docker-compose up -d
+```
+
+#### ▶️ Start the portainer Service
+
+```
+cd portainer
+docker-compose up -d
 ```
 
 #### ▶️ Start Nginx Proxy Manager
@@ -32,11 +46,12 @@ Go to the `Nginx_Proxy_Manager_NPM` directory and use Docker Compose to start th
 
 ```
 cd Nginx_Proxy_Manager_NPM
-sudo docker-compose up -d
+docker-compose up -d
 ```
 
 After launching, add the appropriate configurations as shown below (don't forget to enable ssl):
 ![Alt text](/documentation/image.png)
+![Alt text](/documentation/untitled.png)
 
 ### 🌐 Access
 
