@@ -1,0 +1,4 @@
+# Ignorar ficheiros com dados sensíveis
+nginx_proxy_manager/data/
+nginx_proxy_manager/letsencrypt/
+.env

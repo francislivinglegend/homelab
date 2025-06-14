@@ -1,0 +1,19 @@
+# Usa imagem oficial Python
+FROM python:3.11-slim
+
+# Define diretório de trabalho no container
+WORKDIR /app
+
+# Copia o ficheiro requirements.txt e instala dependências
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia todo o código para dentro do container
+COPY . .
+
+# Expõe a porta 5000
+EXPOSE 5000
+
+# Comando para correr a app
+CMD ["python", "script.py"]
