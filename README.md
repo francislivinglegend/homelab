@@ -57,11 +57,15 @@ After launching, add the appropriate configurations as shown below (don't forget
 
 - Access your Flask service via:  
   [https://franciscoamaro.xyz/](https://franciscoamaro.xyz/)  
-  or  
-  [http://franciscoamaro.xyz/](http://franciscoamaro.xyz/)
 
 - Access the Nginx Proxy Manager dashboard at:  
-  [http://localhost:81/](http://localhost:81/)
+  [https://reverseproxy.franciscoamaro.xyz/](https://reverseproxy.franciscoamaro.xyz/) 
+
+- Access the portainer dashboard at:  
+  [https://portainer.franciscoamaro.xyz/](https://portainer.franciscoamaro.xyz/)  
+
+- Access the nextcloud service at:  
+  [https://nextcloud.franciscoamaro.xyz/](https://nextcloud.franciscoamaro.xyz/)  
 
 ## 👤 Author
 
